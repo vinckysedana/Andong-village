@@ -1,0 +1,23 @@
+{
+  "name": "the-yogasari-villa",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postinstall": "npx patch-package bootstrap"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.10.2",
+    "swiper": "^8.4.5",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "video.js": "^7.20.3",
+    "vite": "^3.1.8"
+  }
+}
